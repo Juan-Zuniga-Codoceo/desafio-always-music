@@ -31,19 +31,19 @@ Agregar un estudiante:
     node index.js agregar "Nombre Estudiante" "RUT" "Curso" Nivel
 
 Consultar un estudiante por RUT:
-    ```bash
+    
     node index.js consultar "RUT"
 
 Consultar todos los estudiantes:
-    ```bash
+    
     node index.js consultar_todos
 
 Actualizar un estudiante:
-    ```bash
+    
     node index.js actualizar "Nombre Estudiante" "RUT" "Nuevo Curso" NuevoNivel
 
 Eliminar un estudiante:
-    ```bash
+    
     node index.js eliminar "RUT"
 
 
