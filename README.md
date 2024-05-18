@@ -15,9 +15,11 @@ AlwaysMusic es una aplicación de gestión de estudiantes para una escuela de m�
    git clone https://github.com/Juan-Zuniga-Codoceo/desafio-always-music.git
 
 2. Navega al directorio del proyecto:
+    ```bash
     cd alwaysmusic
 
 3. Instala las dependencias:
+    ```bash
     npm install
 
 
@@ -25,6 +27,7 @@ AlwaysMusic es una aplicación de gestión de estudiantes para una escuela de m�
 Puedes interactuar con la aplicación mediante la línea de comandos utilizando los siguientes comandos:
 
 Agregar un estudiante:
+    
     node index.js agregar "Nombre Estudiante" "RUT" "Curso" Nivel
 
 Consultar un estudiante por RUT:
