@@ -27,19 +27,23 @@ AlwaysMusic es una aplicación de gestión de estudiantes para una escuela de m�
 Puedes interactuar con la aplicación mediante la línea de comandos utilizando los siguientes comandos:
 
 Agregar un estudiante:
-    
+
     node index.js agregar "Nombre Estudiante" "RUT" "Curso" Nivel
 
 Consultar un estudiante por RUT:
+    ```bash
     node index.js consultar "RUT"
 
 Consultar todos los estudiantes:
+    ```bash
     node index.js consultar_todos
 
 Actualizar un estudiante:
+    ```bash
     node index.js actualizar "Nombre Estudiante" "RUT" "Nuevo Curso" NuevoNivel
 
 Eliminar un estudiante:
+    ```bash
     node index.js eliminar "RUT"
 
 
